@@ -2,12 +2,12 @@
     "wifi": {
         "sta": {
             "enable": true,
-            "ssid": "THE Fortress of Solitude",
-            "pass": "J052193T120592C092794"
+            "ssid": "WIFI_SSID",
+            "pass": "WIIF_PASSWORD"
         }
     },
     "device": {
-        "id": "5971eb781f1f270007cd8740"
+        "id": "LOSANT_DEVICE_ID"
     },
     "debug": {
         "stdout_topic": "",
@@ -15,9 +15,9 @@
     },
     "mqtt": {
         "enable": true,
-        "client_id": "5971eb781f1f270007cd8740",
-        "user": "dd749ec6-cb09-4f36-a169-e9596c3f694c",
-        "pass": "53cb70fd42b9d656f48456853a1bd3b0032aecd9bfa67ddfc5a30aae591ebe28",
+        "client_id": "LOSANT_DEVICE_ID",
+        "user": "LOSANT_ACCESS_KEY",
+        "pass": "LOSANT_ACCESS_SECRET",
         "ssl_ca_cert": "ca.pem"
     }
 }
