@@ -13,9 +13,6 @@ config_schema:
   - ["mqtt.server", "broker.losant.com:8883"]
   - ["mqtt.enable", true]
   - ["mqtt.ssl_ca_cert", "ca.pem"]
-  - ["pins", "o", {title: "Pins layout"}]
-  - ["pins.led", "i", -1, {title: "LED GPIO pin"}]
-  - ["pins.button", "i", -1, {title: "Button GPIO pin"}]
 
 conds:
   - when: mos.platform == "esp32"
